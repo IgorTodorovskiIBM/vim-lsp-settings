@@ -769,6 +769,16 @@
       ]
     }
   ],
+  "jcl": [
+    {
+      "command": "jcl-language-support",
+      "url": "https://github.com/BroadcomMFD/jcl-language-support",
+      "description": "JCL Language Support",
+      "requires": [
+        "npm"
+      ]
+    }
+  ],
   "json": [
     {
       "command": "vscode-json-language-server",
@@ -1315,6 +1325,16 @@
         ],
         "name": "reasonml-editor/vim-reason-plus"
       }
+    }
+  ],
+  "rexx": [
+    {
+      "command": "rexx-language-support",
+      "url": "https://github.com/BroadcomMFD/rexx-language-support",
+      "description": "rexx Language Support",
+      "requires": [
+        "java"
+      ]
     }
   ],
   "rst": [
