@@ -13,7 +13,7 @@ rm "$filename"
 cat <<EOF >./cobol-language-support
 #!/bin/sh
 DIR=\$(cd \$(dirname \$0); pwd)
-java  -Dfile.encoding=UTF-8 "-DserverType=NATIVE" "-Dline.separator=\r\n" -jar "\$DIR/extension/server/jar/server.jar" pipeEnabled
+java  -Dfile.encoding="ISO8859-1" "-DserverType=NATIVE" "-Dline.separator=\r\n" -jar "\$DIR/extension/server/jar/server.jar" pipeEnabled
 EOF
 
 chmod +x ./cobol-language-support
